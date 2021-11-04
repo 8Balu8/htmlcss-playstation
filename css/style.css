@@ -1,0 +1,37 @@
+/* COMMON */
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    font-family: Helvetica, arial, sans-serif;
+    position: fixed;
+    width: 100%;
+}
+img {
+    width: 100%;
+}
+.text_black {
+    color: black;
+}
+
+/* TOP NAV */
+.logo_sony {
+    background-color: black;
+    height: 40px;
+    position: relative;
+}
+.img_brand {
+    height: 20px;
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.brd_rad {
+    border-radius: 20px;
+}
+.lent {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 24px;
+}
