@@ -35,3 +35,20 @@ img {
     padding-top: 10px;
     padding-left: 24px;
 }
+.h500 {
+    min-height: 600px;
+}
+
+/* JUMBOTRON */
+.my_jumbotron {
+    padding-top: 100px;
+}
+.bg_my_jumbotron {
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cta {
+    padding-top: 21rem;
+    color: white;
+}
