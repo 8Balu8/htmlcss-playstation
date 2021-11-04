@@ -44,11 +44,17 @@ img {
     padding-top: 100px;
 }
 .bg_my_jumbotron {
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
 }
 .cta {
-    padding-top: 21rem;
+    padding-top: 15rem;
     color: white;
+}
+.pt_jumbotron {
+    padding-top: 20px;
+}
+.img_logo_game_jumbo {
+    width: 18rem;
 }
