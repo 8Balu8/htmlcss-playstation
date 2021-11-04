@@ -1,11 +1,14 @@
 /* COMMON */
 body {
     font-family: Arial, sans-serif;
+    /* max-width: 1420px; */
+    margin: auto;
 }
 header {
     font-family: Helvetica, arial, sans-serif;
     position: fixed;
     width: 100%;
+    /* max-width: 1420px; */
 }
 img {
     width: 100%;
@@ -58,3 +61,21 @@ img {
 .img_logo_game_jumbo {
     width: 18rem;
 }
+
+/* ROW TITLES */
+.img_row_title {
+    min-width: 150px;
+    width: 100%;
+}
+.img_row_title img {
+    border-radius: 20px;
+    width: 100%;
+}
+.img_row_title img:hover {
+    transition: 2s;
+    position: relative;
+    transform: scale(1.1);
+    bottom: 10px;
+    border: 2px solid magenta;
+}
+
