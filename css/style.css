@@ -110,4 +110,15 @@ img {
     cursor: pointer;
 }
 
+/* JUMBOTRON 2 */
+.bg_my_jumbotron2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cta2 {
+    color: white;
+    padding-top: 3rem;
+}
+
 
