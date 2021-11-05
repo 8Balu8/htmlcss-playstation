@@ -16,6 +16,9 @@ img {
 .text_black {
     color: black;
 }
+.ps_blue {
+    color: #207dd1;
+}
 
 /* TOP NAV */
 .logo_sony {
@@ -71,11 +74,33 @@ img {
     border-radius: 20px;
     width: 100%;
 }
-.img_row_title img:hover {
-    transition: 2s;
+.img_row_title:hover {
     position: relative;
-    transform: scale(1.1);
-    bottom: 10px;
-    border: 2px solid magenta;
 }
+.img_row_title img:hover {
+    position: absolute;
+    transform: scale(1.1);
+    padding: 2px;
+    border: 2px solid #207dd1;
+}
+
+/* THIS IS PLAYSTATION */
+.cta_this_playstation {
+    color: black;
+    padding-top: 3rem;
+}
+@media (min-width: 768px) {
+    .cta_this_playstation {
+        padding-top: 7rem;
+    }
+    .img_this_playstation {
+        padding-top: 3rem;
+    }
+}
+@media (min-width: 1400px) {
+    .cta_this_playstation {
+        padding-top: 15rem;
+    }
+}
+
 
