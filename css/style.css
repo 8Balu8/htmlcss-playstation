@@ -155,7 +155,7 @@ img {
 }
 @media (min-width: 1400px) {
     .pt_jumbo3 {
-        padding-top: 12rem;
+        padding-top: 10rem;
     }
 }
 
@@ -178,7 +178,7 @@ img {
 }
 @media (min-width: 1400px) {
     .pt_jumbo4 {
-        padding-top: 14rem;
+        padding-top: 10rem;
     }
 }
 
@@ -201,16 +201,6 @@ footer li {
 }
 .sony_logo_footer {
     min-width: 150px;
-}
-@media (min-width: 768px) {
-    ul {
-        display: inline-block;
-    }
-    .col {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
 }
 
 
