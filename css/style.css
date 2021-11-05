@@ -192,4 +192,25 @@ img {
     cursor: pointer;
 }
 
+/* FOOTER */
+footer li {
+    list-style: none;
+}
+.ps_logo_footer {
+    max-width: 100px;
+}
+.sony_logo_footer {
+    min-width: 150px;
+}
+@media (min-width: 768px) {
+    ul {
+        display: inline-block;
+    }
+    .col {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
 
