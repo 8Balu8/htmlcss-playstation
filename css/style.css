@@ -78,6 +78,7 @@ img {
     position: relative;
 }
 .img_row_title img:hover {
+    cursor: pointer;
     position: absolute;
     transform: scale(1.1);
     padding: 2px;
@@ -101,6 +102,12 @@ img {
     .cta_this_playstation {
         padding-top: 15rem;
     }
+}
+
+/* ACCESSORIES PLAYSTATION 5 */
+.row_accessories img:hover {
+    border-bottom: 3px solid #207dd1;
+    cursor: pointer;
 }
 
 
