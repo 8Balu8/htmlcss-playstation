@@ -107,7 +107,7 @@ img {
 }
 
 /* ACCESSORIES PLAYSTATION 5 */
-.row_accessories img:hover {
+.row_accessories div.col:hover {
     border-bottom: 3px solid #207dd1;
     cursor: pointer;
 }
